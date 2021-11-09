@@ -1,0 +1,39 @@
+:root {
+    --dark-blue-color: #2C3E50;
+    --green-color: #1ABC9C;
+    --light-blue-color: #3A546D;
+}
+
+header {
+    height: 100px;
+    background-color: var(--dark-blue-color);
+}
+
+.header-content,
+.header-content .row{
+    height: 100%;
+    align-content: center;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.menu-item {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-item {
+        display: block;
+    }
+    .menu-ham {
+        display: none;
+    }
+}
+
+
