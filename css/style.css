@@ -15,6 +15,11 @@ header {
     align-content: center;
 }
 
+.green {
+    background-color: var(--green-color);
+    color: white;
+}
+
 .yellow {
     background-color: yellow;
 }
@@ -29,7 +34,6 @@ header {
 
 .jumbo {
     height: 500px;
-    background-color: var(--green-color);
     display: flex;
 }
 
@@ -38,13 +42,18 @@ header {
     margin: auto;
 }
 
-.portfolio {
+.portfolio,
+.about {
     text-align: center;
 }
 
 .portfolio .product {
     height: 200px;
     border: 1px solid black;
+}
+
+.about p {
+    text-align: left;
 }
 
 @media screen and (min-width: 768px) {
