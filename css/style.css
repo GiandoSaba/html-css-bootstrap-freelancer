@@ -27,6 +27,26 @@ header {
     display: none;
 }
 
+.jumbo {
+    height: 500px;
+    background-color: var(--green-color);
+    display: flex;
+}
+
+.jumbo .container {
+    height: 80%;
+    margin: auto;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio .product {
+    height: 200px;
+    border: 1px solid black;
+}
+
 @media screen and (min-width: 768px) {
     .menu-item {
         display: block;
