@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,23 +16,38 @@
     <title>Bootstrap Freelancer</title>
 </head>
 <body>
-    <header>
+    <header class="bg-blue">
         <div class="container header-content">
-            <div class="row p-3">
-                <div class="col-8 yellow">LOREM IPSUM</div>
-                <div class="col-4 red">
-                    <div class="row text-end">
-                        <div class="col menu-ham"><i class="fas fa-bars"></i></div>
-                        <div class="col menu-item">LOREM</div>
-                        <div class="col menu-item">LOREM</div>
-                        <div class="col menu-item">LOREM</div>
-                    </div>
+            <div class="row pt-4 pb-4 align-items-center">
+                <div class="col-6">
+                    <h1 class="fw-bold fs-4">START BOOTSTRAP</h1>
+                </div>
+                <div class="col-6 menu-ham text-end d-md-none fs-6"><i class="fas fa-bars"></i></div>
+                <div class="col-6 text-end d-none d-md-block fs-6">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item px-2">PORTFOLIO</li>
+                        <li class="list-inline-item px-2">ABOUT</li>
+                        <li class="list-inline-item px-2">CONTACT</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </header>
-    <section class="jumbo green">
-        <div class="container red"></div>
+    <section class="jumbo bg-green">
+        <div class="container-fluid p-5">
+            <div class="row text-center">
+                <div class="col">
+                    <img class="avatar" src="img/avatar.svg">
+                    <h1 class="jumbo-title pt-2">START BOOTSTRAP</h1>
+                    <div class="line-star pt-3 pb-3">
+                        <div class="line"></div>
+                        <div class="star"><i class="fas fa-star"></i></div>
+                        <div class="line"></div>
+                    </div>
+                    <h2 class="fs-3 fw-normal">GRAPHIC ARTIST - WEB DEVELOPER - ILLUSTRATOR</h2>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="portfolio">
         <div class="container p-3">
