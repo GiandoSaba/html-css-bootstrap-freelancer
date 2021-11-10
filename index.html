@@ -20,14 +20,14 @@
         <div class="container header-content">
             <div class="row pt-4 pb-4 align-items-center">
                 <div class="col-6">
-                    <h1 class="fw-bold fs-4">START BOOTSTRAP</h1>
+                    <h1 class="fw-bold">START BOOTSTRAP</h1>
                 </div>
-                <div class="col-6 menu-ham text-end d-md-none fs-6"><i class="fas fa-bars"></i></div>
-                <div class="col-6 text-end d-none d-md-block fs-6">
+                <div class="col-6 menu-ham text-end d-md-none"><i class="fas fa-bars"></i></div>
+                <div class="col-6 text-end d-none d-md-block">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item px-2">PORTFOLIO</li>
-                        <li class="list-inline-item px-2">ABOUT</li>
-                        <li class="list-inline-item px-2">CONTACT</li>
+                        <li class="list-inline-item px-2"><a href="#portfolio">PORTFOLIO</a></li>
+                        <li class="list-inline-item px-2"><a href="#about">ABOUT</a></li>
+                        <li class="list-inline-item px-2"><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -44,12 +44,12 @@
                         <div class="star"><i class="fas fa-star"></i></div>
                         <div class="line"></div>
                     </div>
-                    <h2 class="fs-3 fw-normal">GRAPHIC ARTIST - WEB DEVELOPER - ILLUSTRATOR</h2>
+                    <h2 class="fw-normal">GRAPHIC ARTIST - WEB DEVELOPER - ILLUSTRATOR</h2>
                 </div>
             </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container text-center pt-5 pb-5">
             <div class="row">
                 <div class="col-12">
@@ -111,7 +111,7 @@
             </div>
         </div>
     </section>
-    <section class="about bg-green">
+    <section class="about bg-green" id="about">
         <div class="container text-center pt-5 pb-5">
             <div class="row justify-content-center">
                 <div class="col-8">
@@ -138,38 +138,85 @@
             </div>
         </div>
     </section>
-    <section class="contact">
-        <div class="container p-3">
-            <div class="row">
-                <div class="col">
-                    <h1>LOREM</h1>
-                    <hr>
+    <section class="contact" id="contact">
+        <div class="container text-left pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h1 class="pt-2">CONTACT ME</h1>
+                            <div class="line-star pt-3 pb-3">
+                                <div class="line"></div>
+                                <div class="star"><i class="fas fa-star"></i></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <form>
+                                <div class="mb-4">
+                                    <div class="my_form_container">
+                                        <label for="InputName" class="form-label my_form_label">Name</label>
+                                        <input type="text" class="form-control my_form_input" id="InputName">
+                                    </div>
+                                    <div class="my_form_container">
+                                        <label for="InputEmail" class="form-label my_form_label">Email Address</label>
+                                        <input type="email" class="form-control my_form_input" id="InputEmail">
+                                    </div>
+                                    <div class="my_form_container">
+                                        <label for="InputPhone" class="form-label my_form_label">Phone Number</label>
+                                        <input type="text" class="form-control my_form_input" id="InputPhone">
+                                    </div>
+                                    <div class="my_form_container">
+                                        <label for="Textarea" class="form-label my_form_label">Message</label>
+                                        <textarea class="form-control my_form_textarea" id="Textarea" rows="5"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary my_btn_submit">Send</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row row-cols-1 align-left">
-                <div class="col name"></div>
-                <div class="col email"></div>
-                <div class="col phone"></div>
-                <div class="col message"></div>
-                <div class="col p-3"><button>Send</button></div>
             </div>
         </div>
     </section>
-    <footer>
-        <div class="container-fluid footer-top">
-            <div class="container p-3">
-                <div class="row row-cols-1 row-cols-md-3">
-                    <div class="col yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat culpa quas dignissimos excepturi qui cum totam debitis eligendi. Voluptas modi maxime, quod vel eum ea eaque iusto ad nobis quisquam.</div>
-                    <div class="col red">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore doloremque inventore dolore earum at autem incidunt asperiores debitis in fuga perferendis, ab iure illum fugiat eaque, deleniti laudantium eos magni.</div>
-                    <div class="col yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde debitis cumque iste sint placeat excepturi voluptas. Hic iste illum itaque numquam asperiores quibusdam voluptatum obcaecati ad animi. Rem, temporibus.</div>
+    <section class="footer-top bg-light-blue">
+        <div class="container text-center pt-4 pb-4">
+            <div class="row">
+                <div class="col-12 col-sm-4">
+                    <h2>LOCATION</h2>
+                    <h3>2215 John Daniel Drive Clark, MO <br> 54243</h3>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="row justify-content-evenly">
+                        <div class="col-12">
+                            <h2>AROUND THE WEB</h2>
+                        </div>
+                        <div class="col-3 px-2">
+                            <button type="button" class="btn btn-outline-light"><i class="fab fa-facebook-f"></i></button>
+                        </div>
+                        <div class="col-3 px-2">
+                            <button type="button" class="btn btn-outline-light"><i class="fab fa-google-plus-g"></i></button>
+                        </div>
+                        <div class="col-3 px-2">
+                            <button type="button" class="btn btn-outline-light"><i class="fab fa-twitter"></i></i></button>
+                        </div>
+                        <div class="col-3 px-2">
+                            <button type="button" class="btn btn-outline-light"><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <h2>ABOUT FREELANCER</h2>
                 </div>
             </div>
         </div>
-        <div class="container-fluid footer-bot">
+    </section>
+    <section class="footer-bot bg-blue">
+        <div class="container text-center pt-5 pb-5">
             <div class="row">
                 <div class="col">Lorem ipsum, dolor sit amet</div>
             </div>
         </div>
-    </footer>
+    </section>
 </body>
 </html>
