@@ -19,6 +19,10 @@ html {
     color: white; 
 }
 
+section h1 {
+    font-size: 2.8em;
+}
+
 .line-star {
     display: flex;
     align-items:  center;
@@ -26,14 +30,14 @@ html {
 }
 
 .line-star .line{
-    width: 150px;
+    width: 15%;
     height: 5px;
     background-color: black;
 }
 
 .line-star .star{
     font-size: 2em;
-    margin: 0 1.5em;
+    margin: 0 2%;
 }
 
 .bg-green .line-star .line{
@@ -42,10 +46,6 @@ html {
 
 .jumbo .avatar {
     width: 250px;
-}
-
-.jumbo .jumbo-title {
-    font-size: 2.5em;
 }
 
 .portfolio .product {
@@ -79,17 +79,17 @@ html {
     display: block;
 }
 
+.about p {
+    font-size: 1.3em;
+    text-align: left;
+}
+
 .yellow {
     background-color: yellow;
 }
 
 .red {
     background-color: red;
-}
-
-.about p,
-.contact .align-left {
-    text-align: left;
 }
 
 .contact .name,
