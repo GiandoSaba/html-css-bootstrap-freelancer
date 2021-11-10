@@ -157,15 +157,17 @@ section h1 {
 
 .footer-top h3 {
     font-size: 1.2em;
+    font-weight: normal;
+}
+
+.footer-top h3 span {
+    color: var(--green-color);
 }
 
 .footer-top button {
     border-radius: 50%;
-}
-
-.footer-top button i{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 @media screen and (min-width:576px) {
@@ -175,7 +177,11 @@ section h1 {
     }
 
     .footer-top h3 {
-        font-size: 1em;
+        font-size: 0.8em;
+    }
+
+    .footer-top button {
+        border-radius: 50%;
     }
 }
 
